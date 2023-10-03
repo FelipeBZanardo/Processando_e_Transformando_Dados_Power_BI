@@ -37,7 +37,7 @@ docker run --name meu-mysql -v mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root 
 `mysql -u root -p`
 
 <p align="center">
-  <img src="./_captures/Demonstracao_MySQL.gif">
+  <img src="./_captures/Demonstracao_Docker.gif">
 </p>
 
 ## ⚙️ Conexão do MySQL com o Power BI

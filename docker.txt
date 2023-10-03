@@ -1,0 +1,16 @@
+docker pull mysql
+
+docker run --name meu-mysql -v mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
+
+docker container ls
+	**copiar container_id
+
+docker container inspect container_id
+	**verificar IPAdress
+
+docker exec -it container_id bash -p
+
+mysql -u root -p
+	**digitar a senha
+----------------------------------------------
+docker start container_id
